@@ -1,0 +1,25 @@
+# base ultralytics result
+ultralytics.engine.results.Results object with attributes:
+
+boxes: ultralytics.engine.results.Boxes object
+keypoints: None
+masks: None
+names: {0: 'not_wear', 1: 'wear'}
+orig_img: array([[[ 39,  47,  46],
+        ...,
+        [255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255]]], dtype=uint8)
+
+orig_shape: (480, 640)
+path: '0'
+probs: None
+save_dir: None
+speed: {'preprocess': 0.9965896606445312, 'inference': 74.02753829956055, 'postprocess': 0.9980201721191406}
+
+# supervision result
+Detections(xyxy=array([[        285,      206.55,      459.69,       466.7]], dtype=float32),
+mask=None,
+confidence=array([    0.90561], dtype=float32),
+class_id=array([0]),
+tracker_id=None)

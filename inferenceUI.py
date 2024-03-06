@@ -3,7 +3,7 @@ from ultralytics import YOLO
 import supervision as sv
 
 # model = YOLO('model_- 26 february 2024 12_22.pt', task='detect')
-model = YOLO('folder/model_- 26 february 2024 12_22.onnx', task='detect')
+model = YOLO('models/eleccomponent-2902ver2.pt', task='detect')
 
 for result in model.predict(source=0, imgsz=416, stream=True):
     detection = sv.Detections.from_ultralytics(result)
